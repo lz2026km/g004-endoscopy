@@ -308,7 +308,7 @@ function AppShell() {
           <div style={s.sidebarFooter}>
           <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.9)' }}>内镜诊疗信息管理系统</div>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <div style={{ fontFamily: 'monospace', fontSize: 13, color: '#4ade80', fontWeight: 700 }}>v0.12.0</div>
+            <div style={{ fontFamily: 'monospace', fontSize: 13, color: '#4ade80', fontWeight: 700 }}>v0.13.0</div>
             <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.4)', cursor: 'pointer' }} onClick={() => alert('版本历史：\\n\\nv0.12.0 — UI适配Win10/模拟数据扩充/竞品精细化对标增强\\nv0.10.0 — DICOM浏览器/成本分析/成像模式/权限管理增强\\nv0.9.0 — 38个页面精细化/AI质控增强\\nv0.8.0 — 排班增强/洗消追溯/报告书写\\nv0.7.0 — 手术管理增强/数据上报\\nv0.6.0 — 核心功能完善\\nv0.5.0 — 基础框架搭建')}>历史版本 ▾</div>
           </div>
         </div>
@@ -335,7 +335,7 @@ function AppShell() {
             </span>
           </div>
           <div style={s.topbarRight}>
-            <div style={{ fontSize: 11, color: '#3b82f6', fontFamily: 'monospace', background: '#eff6ff', padding: '3px 8px', borderRadius: 10, border: '1px solid #bfdbfe', fontWeight: 600, minWidth: 44, minHeight: 22, display: 'flex', alignItems: 'center' }}>v0.12.0</div>
+            <div style={{ fontSize: 11, color: '#3b82f6', fontFamily: 'monospace', background: '#eff6ff', padding: '3px 8px', borderRadius: 10, border: '1px solid #bfdbfe', fontWeight: 600, minWidth: 44, minHeight: 22, display: 'flex', alignItems: 'center' }}>v0.13.0</div>
             <div style={s.topbarBadge}>
               <Bell size={20} />
               <span style={s.badge}>1</span>
